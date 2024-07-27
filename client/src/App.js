@@ -3,6 +3,7 @@ import './App.css';
 import {MdClose} from 'react-icons/md'
 import { useEffect, useState } from 'react';
 import axios from "axios";
+import Formtabale from './components/Formtabale';
 
 axios.defaults.baseURL = "http://localhost:8080/"
 function App() {
